@@ -19,16 +19,19 @@
 
 .button {
     display: block;
+
+    padding-top: 5px;
+    padding-bottom: 5px;
+    padding-left: 10px;
+    padding-right: 10px;
     
     background-color: black;
     color: #F0F0F0;
     text-transform: uppercase;
     border-radius: 8px;
     border: none;
-    padding-top: 5px;
-    padding-bottom: 5px;
-    padding-left: 10px;
-    padding-right: 10px;
+
+    cursor: pointer;
 }
 
 .section-header {
@@ -94,8 +97,10 @@
 .main-menu__link {
     padding: 0px;
     margin: 0px;
+
     text-decoration: none;
     text-transform: uppercase;
+    color:#2A2A2A;
 
     font-size: 17.2px;
     line-height: 19.2px;
